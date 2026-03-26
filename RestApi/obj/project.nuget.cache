@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LPMU6mLxRc4=",
+  "success": true,
+  "projectFilePath": "/home/jonathan/Code/Chinese-learning-tools-online/RestApi/RestApi.csproj",
+  "expectedPackageFiles": [
+    "/home/jonathan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "/home/jonathan/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
