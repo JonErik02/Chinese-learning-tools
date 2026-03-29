@@ -1,0 +1,31 @@
+.input-rubric {
+    font-size: 30px;
+    font-family: "Brush Script MT", "Lucida Handwriting", serif;
+}
+
+.input-textarea {
+    width: 100%;
+    height: 90%;
+    font-size: 20px;
+    resize: none;
+}
+
+.input-view {
+    height: 100%;
+}
+
+.input-text {
+    color: green;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.input-button {
+    width: 40%;
+    min-width: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 40px;
+    font-family: "Brush Script MT", "Lucida Handwriting", serif;
+    background-color: rgb(277, 155, 50);
+}
