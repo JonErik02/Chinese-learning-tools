@@ -1,15 +1,15 @@
 import "./InputView.css";
-export function InputView({ text, setText, handleClick }) {
+export function InputView({ text, setText, handleClick }: {text: string, setText: React.Dispatch<React.SetStateAction<string>>, handleClick: Function}) {
   return (
     <div className="input-view">
-      <h2 class="input-rubric">Enter the text you want to analyze</h2>
+      <h2 className="input-rubric">Enter the text you want to analyze</h2>
       <textarea
         className="input-textarea"
         value={text}
-        onChange={(e) => setText(e.value)}
+        onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setText(e.target.value)}
         placeholder="Please enter text"
-        cols="40"
-        rows="20"
+        cols={40}
+        rows={20}
         onKeyDown={(e) => e.ctrlKey && e.key === "q" && handleClick(e)}
       ></textarea>
       <p className="input-text">

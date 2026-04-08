@@ -1,15 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
 import "./App.css";
 import { InputView } from "./components/InputView.tsx";
+import { WorkView } from "./components/WorkView.tsx";
 
 function App() {
   const [text, setText] = useState("");
   const [isInputState, setIsInputState] = useState(true);
 
-  function handleChangeIsInputState(e) {
+  function handleChangeIsInputState() {
     setIsInputState(!isInputState);
   }
   if (isInputState) {
@@ -26,7 +24,7 @@ function App() {
     // TODO: add something to do after getting input
     return (
       <>
-        <p>To be handled</p>
+        <WorkView text={text} ></WorkView>
       </>
     );
   }
